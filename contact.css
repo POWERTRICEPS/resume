@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+  background-image: url(0dafb7928a99a9cb552a941895a6e586.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+    
+  
+ul {
+    position: absolute;
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Century Gothic;
+    position: absolute;
+    right: 30px;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    justify-content: space-around;
+    width: 50;
+  }
+  
+  ul li a:hover{
+    background-color: #fff;
+    color: #000;
+  
+  }
+
+  .contact-form {
+      width: 85%;
+      max-width: 600px;
+      background: #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 30px 40px;
+      box-sizing: border-box;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 20px #000000b3;
+      font-family: "Montserrat", sans-serif;
+  }
+
+  .contact-form h1 {
+      margin-top: 0;
+      font-weight: 200;
+      color: black;
+  }
+
+ .txtb {
+     border: 1px solid gray;
+     margin: 8px 0;
+     padding: 12px 18px;
+     border-radius: 8px;
+ }
+
+ .txtb label {
+     display: block;
+     text-align: left;
+     color: #333;
+     text-transform: uppercase;
+     font-size: 14px;
+ }
+
+ .txtb input, .txtb textarea {
+     width: 100%;
+     border: none;
+     background: none;
+     outline: none;
+     font-size: 18px;
+     margin-top: 6px;
+ }
+
+ .btn {
+     display: inline-block;
+     background: #9b59b6;
+     padding: 14px 0;
+     color: white;
+     text-transform: uppercase;
+     cursor: pointer;
+     margin-top: 8px;
+     width: 100%;
+ }
